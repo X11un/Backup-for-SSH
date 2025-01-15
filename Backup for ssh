@@ -1,11 +1,8 @@
-
 import paramiko
 import os
 import tarfile
 from colorama import init, Fore, Back, Style
 
-
-print(Fore.GREEN + "Code create by @echo ")
 
 S_dir = input("[*] Enter the source file directory: ")
 B_file = "backup.tar.gz"
